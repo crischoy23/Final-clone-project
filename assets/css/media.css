@@ -1,0 +1,445 @@
+@media (min-width: 600px) {
+  #hero {
+    padding: 4em 6em;
+    justify-content: flex-end;
+  }
+  .update-box {
+    padding: 1em;
+  }
+  .appointment-row {
+    flex-direction: row;
+    padding: 1.5em 2em;
+  }
+  .appointment-box {
+    flex-direction: column;
+    padding: 1.5em;
+    width: calc(100% / 2 - 2px);
+    border: none;
+    position: relative;
+  }
+  .appointment-box i {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .left-line{
+    border-right: 1px solid rgb(212, 212, 212);
+    height: 20vh;
+    display:block;
+  }
+  .bottom-line{
+    border-bottom: 1px solid rgb(212, 212, 212);
+    width: 42vw;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+  }
+  .right-line{
+    border-right: 1px solid rgb(212, 212, 212);
+    height: 20vh;
+    margin-top: 10px;
+    display:block;
+  }
+  #excellence {
+    position: relative;
+  }
+  #excellence .left-text-content {
+    padding-left: 1em;
+    width: 90%;
+  }
+  .four-pics {
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    width: 40%;
+    flex-direction: column;
+    line-height: 0;
+    height: 478px;
+    bottom: 0;
+    right: 0;
+  }
+  .four-pics .full-img-1,
+  .full-img-3 {
+    display: none;
+  }
+  .four-pics img {
+    width: 100%;
+    object-fit: cover;
+    height: 239px;
+  }
+  #announcements {
+    padding: 2em 0;
+  }
+  .announcement-box .inner {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px;
+    line-height: 1.6;
+  }
+  .announcement-box .card {
+    width: 30%;
+  }
+  .announcement-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  #announcements .description {
+    width: 70%;
+    padding: 20px;
+    line-height: 2;
+  }
+  #announcements p {
+    text-align: justify;
+  }
+  #for-visit .visit-row {
+    padding: 0 10px;
+  }
+  #for-visit .container {
+    justify-content: center;
+  }
+  .lower-box {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #for-visit .title,
+  p {
+    text-align: center;
+  }
+  .visit-box {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3 - 2px);
+    border: none;
+    margin: auto;
+    padding: 30px 0;
+  }
+  .visit-line{
+    border-right: 1px solid rgb(212, 212, 212);
+    height: 100px;
+    display:inline-block;
+    margin-top: 30px;
+  }
+ 
+}
+
+
+@media (min-width: 768px) {
+  #hero {
+    padding: 4em 8em;
+  }
+  .hero-text {
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .hero-col button {
+    height: 3em;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .appointment-row {
+    padding: 1.5em 3em;
+  }
+
+  #covid-update {
+    position: relative;
+    margin-top: 106px;
+    margin-bottom: 120px;
+    background-color: #50a4ca;
+    height: 266px;
+    width: 100%;
+  }
+  #covid-update .update-image {
+    display: initial;
+  }
+  
+  #covid-update .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .update-row {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: -45px;
+    width: 100%;
+    margin: 0;
+    height: 365px;
+    padding: 0;
+  }
+  .update-box {
+    justify-content: center;
+    width: calc(100% / 3 - 3%);
+    padding: 15px;
+    height: 365px;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .update-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .update-box img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .update-box .img-caption {
+    width: 100%;
+    line-height: 1.2;
+  }
+  .update-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: none;
+  }
+  .update-box p {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  
+  #excellence {
+    margin-top: 50px;
+  }
+  .four-pics {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+  }
+
+  .four-pics .full-img {
+    position: relative;
+    display: block;
+    min-width: 270px;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    height: calc(450px / 2);
+    bottom: 40px;
+  }
+  .four-pics img {
+    height: 100%;
+  }
+  #excellence .left-text-content {
+    width: 100%;
+    padding-left: 2em;
+  }
+  #excellence span {
+    font-size: 45px;
+  }
+
+  .announcement-row,
+  .donate-row {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .announcement-row {
+    padding: 0 30px;
+  }
+  .announcement-box,
+  .donate-box {
+    width: calc(100% / 3 - 5%);
+  }
+  .announcement-box {
+    padding: 0;
+    margin: 0;
+  }
+  .announcement-box .inner {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    
+  }
+  .announcement-box .card {
+    width: 100%;
+  }
+  #announcements .description {
+    width: 100%;
+  }
+  
+  #donate{
+    margin: 50px 0;
+  }
+}
+
+
+@media (min-width: 1280px){
+  header .container {
+    width: 100%;
+    padding: 1.2rem 0.5em;
+  }
+  header img {
+    height: 4.5vw;
+    margin-left: 20px;
+  }
+  #hero{
+    padding: 8em 12em 8em 0;
+  }
+  .hero-text{
+    font-size: 50px;
+  }
+  .appointment-row{
+    padding: 0 ;
+    width: 90%;
+    margin: auto;
+  }
+  .appointment-box{
+    width: calc(100% / 4 - 4px);
+    padding: 2em 1em;
+    font-size: 20px;
+  }
+  .bottom-line{
+    display: none;
+  }
+  .lg-line{
+    border-right: 1px solid rgb(212, 212, 212);
+    height: 20vh;
+    display:block;
+  }
+  .division{
+    margin-top: 30px;
+  }
+  #excellence{
+    background-color: var(--clr-bg-darkblue);
+    margin: 100px 0 75px 0;
+    height: 595px;
+  }
+  #excellence span{
+    font-size: 50px;
+  }
+  #excellence .container{
+    padding: 0;
+  }
+  .four-pics{
+    height: 595px;
+    width:650px;
+  }
+  .four-pics .full-img {
+    height: 50%;
+    bottom:50px;
+  }
+  #excellence button{
+    margin-top: 40px;
+  }
+#announcements .card{
+    height: 200px;
+  }
+#announcements img{
+    height: 100%;
+  }
+  #for-visit{
+    position: relative;
+    padding: 20px;
+    height: 445px;
+  }
+  #for-visit .hand-pic {
+    background-image: url("https://www.phoenixchildrens.org/themes/custom/pch_theme/imgs/icon-waving-hand.png");
+    background-size: 500px;
+    background-position: left;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 445px;
+    width: 440px;
+  }
+  #for-visit .container{
+    justify-content: flex-start;
+    padding-left: 60px;
+  }
+  .visit-row{
+    width: 65%;
+    padding: 0;
+  }
+  .Upper-text{
+    padding: 0 35px
+  }
+  #for-visit .title{
+    font-size: 50px;
+  }
+  #for-visit p{
+    font-size: 22px;
+  }
+  .lower-box a{
+    justify-content: center;
+    width: 33%;
+    height: 165px;
+  }
+}
+
+
+@media (min-width: 1700px){
+  #hero{
+    padding: 8em 25em 8em 0;
+    height: 515px;
+  }
+  .update-row,
+  .appointment-row,
+  .announcement-row,
+  .donate-row{
+    margin: auto;
+    width: 75%;
+  }
+  #covid-update .update-image{
+    height: 237px;
+  }
+  .update-box{
+    width: calc(100% / 3 - 4%);
+  }
+  #appointment{
+    margin: 150px 0;
+  }
+  .appointment-box{
+    height: 180px;
+  }
+  .division{
+    height: 130px;
+  }
+  #excellence,
+  .four-pics{
+    height: 597px;
+  }
+  .four-pics{
+    width:950px;
+  }
+  #excellence .container{
+    padding-left: 220px;
+  }
+  #excellence ul{
+    line-height: 2.5;
+  }
+  #announcements .card{
+    height: 240px;
+  }
+  
+  #for-visit{
+    height: 450px;
+  }
+  .visit-row {
+    width:985px;
+    padding-left: 100px;
+  }
+  #for-visit .container{
+    padding-left: 250px;
+  }
+  #for-visit .hand-pic{
+    height: 450px;
+    width: 570px;
+    background-size: 600px;
+  }
+  
+}
