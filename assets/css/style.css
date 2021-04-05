@@ -103,16 +103,17 @@ header .search {
   color: white;
   font-size: clamp(1.5em, 3.5vw, 3em);
   line-height: 1.5;
+  justify-content: center;
 }
 .hero-col button {
-  height: 2em;
   width: 90%;
+  height:40px;
   border-radius: 4px;
   margin-top: 40px;
   background-color: #4997b9;
   border: 2px solid white;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 .hero-col button:hover {
   background: #398caf;
@@ -169,9 +170,12 @@ header .search {
   color: var(--clr-violet);
 }
 .appointment-box:hover {
-  color: #fff;
+  
   transform: scale(1.03);
   border-radius: 10px;
+}
+.appointment-box:hover p{
+  color: #fff;
 }
 .appointment-box:hover i {
   color: white;
@@ -350,6 +354,56 @@ span {
   background-color: var(--clr-red);
 }
 footer {
-  padding-bottom: 300px;
-  background-color: var(--clr-bg-gray);
+  padding:0 15px 250px 15px;
+  background-color: #636469;
+  height: 210px;
+}
+footer .container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer i{
+  padding: 20px 10px; 
+}
+footer .mid-footer{
+  margin: 30px 0 25px 0;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+/*footer ul{
+  justify-content: space-between;
+  align-items: center;
+}*/
+footer a{
+  color:#4f9dbe;
+  
+}
+footer li{
+  list-style: none;
+}
+footer .bottom-footer,
+footer ul{  
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+footer .footer-line{
+  border-right: 2px solid white;
+  height: 15px;
+}
+footer span{
+  margin: 0 4px;
+}
+.bottom-footer span,
+ul span{
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  
+}
+.bottom-footer span,
+.bottom a{
+  margin: 3px;
 }
