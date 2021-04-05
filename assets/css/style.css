@@ -22,9 +22,11 @@
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 button {
   border: none;
+  cursor: pointer;
 }
 
 .d-flex {
@@ -37,7 +39,6 @@ button {
 .text-deco {
   text-decoration: none;
 }
-
 
 /*HEADER*/
 header .container {
@@ -65,7 +66,6 @@ header .search {
   border-radius: 20px;
   font-size: 18px;
   border: none;
-  cursor: pointer;
   background-color: rgb(212, 211, 211);
 }
 .search .button:hover {
@@ -109,10 +109,13 @@ header .search {
   width: 90%;
   border-radius: 4px;
   margin-top: 40px;
-  background-color: #70b0c0;
+  background-color: #4997b9;
   border: 2px solid white;
   color: white;
   font-size: 12px;
+}
+.hero-col button:hover {
+  background: #398caf;
 }
 /*Covid-update*/
 #covid-update {
@@ -129,7 +132,7 @@ header .search {
 .update-box {
   background-color: var(--clr-bg-gray);
   margin: 10px;
-  color:var(--clr-darktext);
+  color: var(--clr-darktext);
   padding: 1.5em;
   justify-content: center;
   line-height: 2;
@@ -294,7 +297,7 @@ span {
   background-color: var(--clr-bg-darkblue);
   border-radius: 5px;
 }
-.visit-box .i-content{
+.visit-box .i-content {
   width: 40px;
   margin-right: 20px;
 }
@@ -350,7 +353,3 @@ footer {
   padding-bottom: 300px;
   background-color: var(--clr-bg-gray);
 }
-
-
-
-

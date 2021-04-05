@@ -21,23 +21,23 @@
     width: 100%;
     padding-bottom: 20px;
   }
-  .left-line{
+  .left-line {
     border-right: 1px solid rgb(212, 212, 212);
     height: 20vh;
-    display:block;
+    display: block;
   }
-  .bottom-line{
+  .bottom-line {
     border-bottom: 1px solid rgb(212, 212, 212);
     width: 42vw;
     position: absolute;
     display: inline-block;
     bottom: 0;
   }
-  .right-line{
+  .right-line {
     border-right: 1px solid rgb(212, 212, 212);
     height: 20vh;
     margin-top: 10px;
-    display:block;
+    display: block;
   }
   #excellence {
     position: relative;
@@ -117,15 +117,13 @@
     margin: auto;
     padding: 30px 0;
   }
-  .visit-line{
+  .visit-line {
     border-right: 1px solid rgb(212, 212, 212);
     height: 100px;
-    display:inline-block;
+    display: inline-block;
     margin-top: 30px;
   }
- 
 }
-
 
 @media (min-width: 768px) {
   #hero {
@@ -157,7 +155,7 @@
   #covid-update .update-image {
     display: initial;
   }
-  
+
   #covid-update .container {
     display: flex;
     width: 100%;
@@ -181,7 +179,7 @@
     overflow: hidden;
     margin: 0;
   }
-  
+
   .update-image {
     width: 100%;
     height: 200px;
@@ -207,9 +205,7 @@
   }
 }
 
-
 @media (min-width: 1000px) {
-  
   #excellence {
     margin-top: 50px;
   }
@@ -242,6 +238,9 @@
   #excellence span {
     font-size: 45px;
   }
+  #announcements{
+    margin-bottom: 50px;
+  }
 
   .announcement-row,
   .donate-row {
@@ -263,22 +262,24 @@
     flex-direction: column;
     align-items: center;
     padding: 0;
-    
   }
   .announcement-box .card {
     width: 100%;
   }
   #announcements .description {
     width: 100%;
+    padding: 0;
   }
-  
-  #donate{
+  .description a{
+    line-height: 1.5;
+  }
+
+  #donate {
     margin: 50px 0;
   }
 }
 
-
-@media (min-width: 1280px){
+@media (min-width: 1280px) {
   header .container {
     width: 100%;
     padding: 1.2rem 0.5em;
@@ -287,62 +288,67 @@
     height: 4.5vw;
     margin-left: 20px;
   }
-  #hero{
+  #hero {
     padding: 8em 12em 8em 0;
   }
-  .hero-text{
+  #hero button {
+    font-size: 16px;
+    height: 3em;
+    width: 45%;
+  }
+  .hero-text {
     font-size: 50px;
   }
-  .appointment-row{
-    padding: 0 ;
+  .appointment-row {
+    padding: 0;
     width: 90%;
     margin: auto;
   }
-  .appointment-box{
+  .appointment-box {
     width: calc(100% / 4 - 4px);
     padding: 2em 1em;
     font-size: 20px;
   }
-  .bottom-line{
+  .bottom-line {
     display: none;
   }
-  .lg-line{
+  .lg-line {
     border-right: 1px solid rgb(212, 212, 212);
     height: 20vh;
-    display:block;
+    display: block;
   }
-  .division{
+  .division {
     margin-top: 30px;
   }
-  #excellence{
+  #excellence {
     background-color: var(--clr-bg-darkblue);
     margin: 100px 0 75px 0;
     height: 595px;
   }
-  #excellence span{
+  #excellence span {
     font-size: 50px;
   }
-  #excellence .container{
+  #excellence .container {
     padding: 0;
   }
-  .four-pics{
+  .four-pics {
     height: 595px;
-    width:650px;
+    width: 650px;
   }
   .four-pics .full-img {
     height: 50%;
-    bottom:50px;
+    bottom: 50px;
   }
-  #excellence button{
+  #excellence button {
     margin-top: 40px;
   }
-#announcements .card{
+  #announcements .card {
     height: 200px;
   }
-#announcements img{
+  #announcements img {
     height: 100%;
   }
-  #for-visit{
+  #for-visit {
     position: relative;
     padding: 20px;
     height: 445px;
@@ -357,89 +363,87 @@
     height: 445px;
     width: 440px;
   }
-  #for-visit .container{
+  #for-visit .container {
     justify-content: flex-start;
     padding-left: 60px;
   }
-  .visit-row{
+  .visit-row {
     width: 65%;
     padding: 0;
   }
-  .Upper-text{
-    padding: 0 35px
+  .Upper-text {
+    padding: 0 35px;
   }
-  #for-visit .title{
+  #for-visit .title {
     font-size: 50px;
   }
-  #for-visit p{
+  #for-visit p {
     font-size: 22px;
   }
-  .lower-box a{
+  .lower-box a {
     justify-content: center;
     width: 33%;
     height: 165px;
   }
 }
 
-
-@media (min-width: 1700px){
-  #hero{
+@media (min-width: 1700px) {
+  #hero {
     padding: 8em 25em 8em 0;
     height: 515px;
   }
   .update-row,
   .appointment-row,
   .announcement-row,
-  .donate-row{
+  .donate-row {
     margin: auto;
     width: 75%;
   }
-  #covid-update .update-image{
+  #covid-update .update-image {
     height: 237px;
   }
-  .update-box{
+  .update-box {
     width: calc(100% / 3 - 4%);
   }
-  #appointment{
+  #appointment {
     margin: 150px 0;
   }
-  .appointment-box{
+  .appointment-box {
     height: 180px;
   }
-  .division{
+  .division {
     height: 130px;
   }
   #excellence,
-  .four-pics{
+  .four-pics {
     height: 597px;
   }
-  .four-pics{
-    width:950px;
+  .four-pics {
+    width: 950px;
   }
-  #excellence .container{
+  #excellence .container {
     padding-left: 220px;
   }
-  #excellence ul{
+  #excellence ul {
     line-height: 2.5;
   }
-  #announcements .card{
+  #announcements .card {
     height: 240px;
   }
-  
-  #for-visit{
+
+  #for-visit {
     height: 450px;
   }
   .visit-row {
-    width:985px;
+    width: 985px;
     padding-left: 100px;
   }
-  #for-visit .container{
+  #for-visit .container {
     padding-left: 250px;
   }
-  #for-visit .hand-pic{
+  #for-visit .hand-pic {
     height: 450px;
     width: 570px;
     background-size: 600px;
   }
-  
 }
