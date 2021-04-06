@@ -12,6 +12,8 @@
   }
   .appointment-box {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1.5em;
     width: calc(100% / 2 - 2px);
     border: none;

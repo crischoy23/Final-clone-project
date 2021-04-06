@@ -354,7 +354,7 @@ span {
   background-color: var(--clr-red);
 }
 footer {
-  padding:0 15px 250px 15px;
+  padding:10px 15px 250px 15px;
   background-color: #636469;
   height: 210px;
 }
@@ -363,6 +363,7 @@ footer .container{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 footer i{
   padding: 20px 10px; 
@@ -381,14 +382,14 @@ footer a{
   color:#4f9dbe;
   
 }
-footer li{
+li{
   list-style: none;
 }
 footer .bottom-footer,
 footer ul{  
   justify-content: space-between;
   align-items: center;
-  font-size: 15px;
+  font-size: 14px;
 }
 footer .footer-line{
   border-right: 2px solid white;
@@ -397,6 +398,7 @@ footer .footer-line{
 footer span{
   margin: 0 4px;
 }
+
 .bottom-footer span,
 ul span{
   font-weight: bold;
