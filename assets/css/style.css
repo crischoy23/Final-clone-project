@@ -28,6 +28,12 @@ button {
   border: none;
   cursor: pointer;
 }
+h2,h3{
+  font-weight: 500;
+}
+h4{
+  font-weight: 400;
+}
 
 .d-flex {
   display: flex;
@@ -99,9 +105,10 @@ header .search {
   align-items: center;
 }
 
+
 .hero-text {
   color: white;
-  font-size: clamp(1.5em, 3.5vw, 3em);
+  font-size: clamp(1em, 2vw, 2em);
   line-height: 1.5;
   justify-content: center;
 }
@@ -203,7 +210,7 @@ header .search {
   line-height: 2;
   margin-top: 20px;
 }
-.left-text-content span {
+.left-text-content h2 {
   font-size: 2.5em;
   line-height: 1;
 }
@@ -248,12 +255,12 @@ header .search {
 #announcements img:hover {
   transform: scale(1.02);
 }
-.announcement-box span,
+.announcement-box h4,
 a,
 p {
   display: block;
 }
-.announcement-box span {
+.announcement-box h4 {
   color: var(--clr-bg-lightblue);
 }
 .description a {
@@ -278,8 +285,11 @@ p {
 }
 #for-visit .visit-row,
 i,
-span {
+h2 {
   flex-direction: column;
+  color: white;
+}
+#for-visit h4{
   color: white;
 }
 #for-visit .title {
@@ -334,10 +344,10 @@ span {
 .donate-box-content i {
   margin-bottom: 20px;
 }
-.donate-box-content span {
+.donate-box-content h3 {
   font-size: 1.5em;
 }
-.donate-box-content button {
+.donate-box button {
   margin-top: 20px;
   padding: 0.5em 1.5em;
   font-size: 1em;
@@ -357,6 +367,7 @@ footer {
   padding:10px 15px 250px 15px;
   background-color: #636469;
   height: 210px;
+  color:white;
 }
 footer .container{
   width: 100%;
@@ -372,18 +383,22 @@ footer .mid-footer{
   margin: 30px 0 25px 0;
   flex-direction: row;
   font-size: 14px;
+  justify-content: center;
+  align-items: center;
 }
 
-/*footer ul{
-  justify-content: space-between;
-  align-items: center;
-}*/
+
 footer a{
   color:#4f9dbe;
   
 }
 li{
   list-style: none;
+  padding: 0 5px;
+  border-right: 2px solid white;
+}
+ul .last{
+  border:none;
 }
 footer .bottom-footer,
 footer ul{  
@@ -395,12 +410,9 @@ footer .footer-line{
   border-right: 2px solid white;
   height: 15px;
 }
-footer span{
-  margin: 0 4px;
-}
 
-.bottom-footer span,
-ul span{
+
+.bottom-footer span{
   font-weight: bold;
   letter-spacing: 0.5px;
   
