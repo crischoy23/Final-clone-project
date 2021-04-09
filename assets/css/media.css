@@ -132,7 +132,6 @@
     padding: 4em 8em;
   }
   header .container{
-    border: 2px solid black;
     padding:5px 0 5px 15px;
   }
   .hero-text {
@@ -293,9 +292,8 @@
 }
 
 @media (min-width: 1280px) {
-  header .container {
-    width: 100%;
-    padding: 1.2rem 0.5em;
+  header .container{
+    padding:7px 0 7px 15px;
   }
   header img {
     height: 4.5vw;
