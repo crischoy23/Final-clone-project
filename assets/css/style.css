@@ -28,13 +28,12 @@ button {
   border: none;
   cursor: pointer;
 }
-h2,h3{
+h2{
   font-weight: 500;
 }
 h4{
   font-weight: 400;
 }
-
 .d-flex {
   display: flex;
   flex-wrap: wrap;
@@ -73,12 +72,13 @@ header .search {
   font-size: 18px;
   border: none;
   background-color: rgb(212, 211, 211);
+  color: rgb(53, 51, 51)
 }
 .search .button:hover {
   border-bottom: 2px solid gray;
 }
 .search .button i {
-  padding-left: 5px;
+  padding-left: 10px;
   color: rgb(80, 164, 202);
 }
 .nav-logo img:hover {
@@ -181,7 +181,7 @@ header .search {
   transform: scale(1.03);
   border-radius: 10px;
 }
-.appointment-box:hover p{
+.appointment-box:hover h4{
   color: #fff;
 }
 .appointment-box:hover i {
@@ -345,7 +345,8 @@ h2 {
   margin-bottom: 20px;
 }
 .donate-box-content h3 {
-  font-size: 1.5em;
+  font-size: 1.6em;
+  font-weight: 500;
 }
 .donate-box button {
   margin-top: 20px;
@@ -386,11 +387,8 @@ footer .mid-footer{
   justify-content: center;
   align-items: center;
 }
-
-
 footer a{
-  color:#4f9dbe;
-  
+  color:#4f9dbe; 
 }
 footer li{
   list-style: none;
@@ -410,12 +408,9 @@ footer .footer-line{
   border-right: 2px solid white;
   height: 15px;
 }
-
-
 .bottom-footer span{
   font-weight: bold;
   letter-spacing: 0.5px;
-  
 }
 .bottom-footer span,
 .bottom a{
