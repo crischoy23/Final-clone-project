@@ -361,7 +361,11 @@
     margin-left: 20px;
   }
   #hero {
-    padding: 8em 12em 8em 0;
+    padding: 8em 10em 8em 0;
+    height: 515px;
+  }
+  h1{
+    font-size: 50px;
   }
   #hero button {
     font-size: 16px;
@@ -464,9 +468,7 @@
     padding: 8em 25em 8em 0;
     height: 515px;
   }
-  h1{
-    font-size: 50px;
-  }
+  
   
   .update-row,
   .appointment-row,
